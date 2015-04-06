@@ -1,3 +1,7 @@
-(* Mathematica has a built-in FFT function which uses a proprietary algorithm developed at Wolfram Research. It also has an option to tune the algorithm for specific applications. The options shown below, while not default, produce output that is consistent with most other FFT routines. *)
+(* Mathematica has a built-in FFT function which uses a proprietary algorithm developed at Wolfram Research. 
+   It also has an option to tune the algorithm for specific applications. 
+   The options shown below, while not default, produce output that is consistent with most other FFT routines. 
+   
+   Built in FFT calls also exist in Maple, MATLAB, and R*)
  
 Fourier[{1,1,1,1,0,0,0,0}, FourierParameters->{1,-1}]
